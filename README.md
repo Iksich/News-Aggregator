@@ -1,2 +1,3 @@
-# News-Aggregator
-website that aggregates news articles from different sources using APIs
+# news-app
+This web app is a news aggregator that fetches news articles using APIs and displays them in an attractive format.
+
