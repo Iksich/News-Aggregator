@@ -5,7 +5,7 @@ export const App: React.FC = () => {
   return (
     <div className="App">
       {
-        <div>Initial commit</div>
+        <div></div>
       }
     </div>
   );
