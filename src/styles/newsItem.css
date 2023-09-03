@@ -1,0 +1,197 @@
+.news {
+  display: grid;
+  margin: 10px;
+  text-align: center;
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+  grid-gap: 5px;
+}
+
+.heading {
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: #4068e2b6;
+  color: white;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-weight: 400;
+  padding: 5px;
+  /* text-align: center; */
+
+}
+
+.card .user_info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.card .user_img {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+
+.card .user_info .user_name {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  /* margin: auto 10px ; */
+}
+
+.card .user_info .user_name p {
+  width: 100%;
+  text-align: left;
+  margin: 0px;
+  margin-left: 5px;
+  letter-spacing: 1px;
+}
+
+.card .user_info .visit {
+  position: absolute;
+  /* margin: auto 10px; */
+  right: 10px;
+  top: 15px;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.card .user_info .visit button {
+
+
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.card .user_info .visit a {
+  text-decoration: none;
+}
+
+.card .user_info .visit button {
+  display: block;
+  position: relative;
+  padding: 3px 0;
+  width: 25px;
+  height: 25px;
+  /* margin: auto 0px; */
+  /* border-radius: 10px; */
+  border: none;
+  /* font-size: 20px; */
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  /* background-color: #4069E2; */
+
+
+}
+
+.card .user_info .visit button svg {
+
+  color: #0082d3;
+}
+
+.card .user_info .visit button:focus {
+  display: none;
+}
+
+.card .user_info .visit button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+.card {
+  /* background-color: #393B45; */
+  height: auto;
+  width: 300px;
+  margin: 1vh auto;
+  border-radius: 10px;
+  padding-bottom: 1px;
+  color: rgb(0, 0, 0);
+  box-shadow: 2px 2px 5px #4069E2;
+}
+
+#decs {
+  display: block;
+  margin: 05px auto;
+  width: 280px;
+  height: auto;
+}
+
+#decs #title {
+
+  font-weight: 100px;
+  /* font-size: 15px; */
+  /* text-align: center; */
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0px;
+  margin-right: 20px;
+  text-align: initial;
+  /* font-family: 'Bebas Neue', cursive; */
+}
+
+#decs #description {
+
+  letter-spacing: 2px;
+  margin: 0px;
+  margin-top: 5px;
+  text-align: left;
+}
+
+#decs {
+
+  text-align: left;
+  letter-spacing: 1.5px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.image_con {
+  display: block;
+  /* position: relative; */
+  background-color: #E6EBEE;
+  width: 250px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px #4069E2;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .news {
+    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    grid-gap: 5px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .news {
+    z-index: -3 !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
+
+
+}
